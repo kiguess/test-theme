@@ -65,9 +65,9 @@ var authConfig = {
 };
 
 var themeOptions = {
-  cdn: "https://cdn.jsdelivr.net/gh/alx-xlx/goindex",
+  cdn: "https://cdn.jsdelivr.net/gh/kiguess/test-theme",
   // 主题版本号
-  version: "2.0.8-darkmode-0.1",
+  version: "master",
   //可选默认系统语言:en/zh-chs/zh-cht
   languages: "en",
   render: {
@@ -75,7 +75,7 @@ var themeOptions = {
      * 是否渲染HEAD.md文件
      * Render HEAD.md file
      */
-    head_md: false,
+    head_md: true,
     /**
      * 是否渲染README.md文件
      * Render README.md file
