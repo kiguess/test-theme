@@ -1,5 +1,5 @@
 const authConfig = {
-  "siteName": "CKs Share Drive", // Title
+  "siteName": "goindex", // Title
   "version": "_4.28", // Version
   "hash": "",
   "client_id": "*******.apps.googleusercontent.com", // client_id from rclone config
@@ -24,7 +24,7 @@ const authConfig = {
       name: "root"
     },
     {
-      id: "0AK0dce9h38dOUk9PVA", // Example
+      id: "0AK0dce9h38dOUk9PVA",
       name: "opra",
       user: 'user1',
       pass: "111",
@@ -53,7 +53,7 @@ const authConfig = {
 * If the set value is too small, it will cause the incremental loading (page loading) of the scroll bar of the search results page to fail;
 * The size of this value affects the response speed of the search operation.
 */
-  "search_result_list_page_size": 1000,
+  "search_result_list_page_size": 50,
 // Confirm that cors can be opened
   "enable_cors_file_down": false,
 /**
