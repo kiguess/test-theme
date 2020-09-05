@@ -75,7 +75,7 @@ var themeOptions = {
      * 是否渲染HEAD.md文件
      * Render HEAD.md file
      */
-    head_md: true,
+    head_md: false,
     /**
      * 是否渲染README.md文件
      * Render README.md file
